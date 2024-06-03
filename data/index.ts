@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Skills", link: "#skills" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -75,7 +75,7 @@ export const navItems = [
       title: "Travel Advisor Web Application",
       des: "Discover and book your next adventure effortlessly with our sleek, Next.js-powered travel app. Explore destinations, find accommodations, and plan your trip seamlessly.",
       img: "/1.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
       link: "https://github.com/KaveeshaDisssanayake/Travel-App",
     },
     {
@@ -83,7 +83,7 @@ export const navItems = [
       title: "Real Time Chat App",
       des: "Real-time chat app built with React.js and Firebase, offering seamless communication with instant messaging, user authentication, and cloud storage.",
       img: "/CA2.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/KaveeshaDisssanayake/react-firebase-chat-starter",
     },
     {
@@ -91,7 +91,7 @@ export const navItems = [
       title: "Netflix Clone Web App",
       des: "Netflix clone web app built with React JS and Firebase, featuring user authentication, real-time database, and seamless media streaming.",
       img: "/NC1.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/KaveeshaDisssanayake/netflix_clone",
     },
     {
@@ -99,7 +99,7 @@ export const navItems = [
       title: "Chips Website",
       des: "An intuitive web app to explore, purchase, and enjoy a wide variety of chips. Built with HTML, CSS, and JavaScript for a seamless shopping experience.",
       img: "/ch1.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/KaveeshaDisssanayake/responsive-chips-website-main",
     },
   ];
@@ -173,29 +173,31 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Academic Projects",
+      desc: "Completed capstone, web, and community projects in my second year. Developed innovative solutions using HTML, CSS, JavaScript, and other technologies, enhancing my practical skills and teamwork abilities.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Volunteer Works",
+      desc: 
+
+      "Active member of IEEE Student Branch and Society of Computer Sciences at Sabaragamuwa University of Sri Lanka.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Soft Skills",
+      desc: "Developed teamwork, leadership, time management, and communication skills through various academic and extra curriculum activities.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "A Lead Frontend Developer",
+      desc: "Passionate frontend enthusiast dedicated to creating intuitive, responsive, and visually appealing web applications.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
